@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+main{
+    height:400px ;
+   
+}
+.card-container{
+    height: 400px;
+    background-image: url(img/images.png), url(img/download.png);
+    background-repeat: no-repeat;
+    background-position: left,right;
+}
+.card{
+    margin: 40px;
+    padding: 20px;
+    float: left;
+    background-color: rgb(145, 152, 158);
+    width: 350px;
+    height: 300px;
+    box-shadow: 2px 2px 8px 7px rgb(177, 199, 199);
+    border-left: 5px solid ;
+}
+.firstcolor{
+    border-image: linear-gradient(rgb(8, 230, 175), rgb(0, 68, 255));
+    border-image-slice: 1;
+}
+.secondcolor{
+    border-image: linear-gradient(rgb(97, 230, 8), rgb(251, 255, 0));
+    border-image-slice: 1;
+}
